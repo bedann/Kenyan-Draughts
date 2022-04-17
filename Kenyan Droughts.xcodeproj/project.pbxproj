@@ -13,6 +13,13 @@
 		C035F45F26FF227A00F4E708 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C035F45E26FF227A00F4E708 /* Preview Assets.xcassets */; };
 		C035F46126FF227A00F4E708 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C035F46026FF227A00F4E708 /* Persistence.swift */; };
 		C035F46426FF227A00F4E708 /* Kenyan_Droughts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C035F46226FF227A00F4E708 /* Kenyan_Droughts.xcdatamodeld */; };
+		C035F46B26FF232300F4E708 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C035F46A26FF232300F4E708 /* GameViewModel.swift */; };
+		C035F46D26FF235300F4E708 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C035F46C26FF235300F4E708 /* GameView.swift */; };
+		C035F46F26FF30E700F4E708 /* Puck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C035F46E26FF30E700F4E708 /* Puck.swift */; };
+		C0B3461D26FFAED500F442BF /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B3461C26FFAED500F442BF /* K.swift */; };
+		C0B3462126FFB87600F442BF /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B3462026FFB87600F442BF /* Move.swift */; };
+		C0CE2B91277664E600636EEC /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE2B90277664E600636EEC /* Tree.swift */; };
+		C0CE2B932776692700636EEC /* VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE2B922776692700636EEC /* VM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +30,13 @@
 		C035F45E26FF227A00F4E708 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C035F46026FF227A00F4E708 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		C035F46326FF227A00F4E708 /* Kenyan_Droughts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kenyan_Droughts.xcdatamodel; sourceTree = "<group>"; };
+		C035F46A26FF232300F4E708 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		C035F46C26FF235300F4E708 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		C035F46E26FF30E700F4E708 /* Puck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puck.swift; sourceTree = "<group>"; };
+		C0B3461C26FFAED500F442BF /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		C0B3462026FFB87600F442BF /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
+		C0CE2B90277664E600636EEC /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
+		C0CE2B922776692700636EEC /* VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +75,13 @@
 				C035F46026FF227A00F4E708 /* Persistence.swift */,
 				C035F46226FF227A00F4E708 /* Kenyan_Droughts.xcdatamodeld */,
 				C035F45D26FF227A00F4E708 /* Preview Content */,
+				C035F46A26FF232300F4E708 /* GameViewModel.swift */,
+				C035F46C26FF235300F4E708 /* GameView.swift */,
+				C035F46E26FF30E700F4E708 /* Puck.swift */,
+				C0B3461C26FFAED500F442BF /* K.swift */,
+				C0B3462026FFB87600F442BF /* Move.swift */,
+				C0CE2B90277664E600636EEC /* Tree.swift */,
+				C0CE2B922776692700636EEC /* VM.swift */,
 			);
 			path = "Kenyan Droughts";
 			sourceTree = "<group>";
@@ -144,9 +165,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C035F46126FF227A00F4E708 /* Persistence.swift in Sources */,
+				C0B3462126FFB87600F442BF /* Move.swift in Sources */,
+				C0CE2B932776692700636EEC /* VM.swift in Sources */,
 				C035F46426FF227A00F4E708 /* Kenyan_Droughts.xcdatamodeld in Sources */,
 				C035F45A26FF227900F4E708 /* ContentView.swift in Sources */,
+				C035F46B26FF232300F4E708 /* GameViewModel.swift in Sources */,
+				C0CE2B91277664E600636EEC /* Tree.swift in Sources */,
+				C035F46D26FF235300F4E708 /* GameView.swift in Sources */,
+				C0B3461D26FFAED500F442BF /* K.swift in Sources */,
 				C035F45826FF227900F4E708 /* Kenyan_DroughtsApp.swift in Sources */,
+				C035F46F26FF30E700F4E708 /* Puck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
